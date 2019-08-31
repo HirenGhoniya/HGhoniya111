@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="C:/selenium-java-3.6.0/FreeCRMTest.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/FreeCRMTest/FreeCRMTest.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="true" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <file path="/FreeCRMTest/pom.xml"/>
+        <folder path="/FreeCRMTest/src"/>
+        <javaElement handleIdentifier="=FreeCRMTest/src\/main\/java"/>
+        <javaElement handleIdentifier="=FreeCRMTest/src\/test\/java"/>
+        <file path="/FreeCRMTest/.classpath"/>
+        <javaElement handleIdentifier="=FreeCRMTest/src\/main\/resources"/>
+        <folder path="/FreeCRMTest/test-output"/>
+        <file path="/FreeCRMTest/.project"/>
+        <folder path="/FreeCRMTest/target"/>
+    </selectedElements>
+</jardesc>
