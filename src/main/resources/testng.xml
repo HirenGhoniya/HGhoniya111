@@ -16,7 +16,9 @@
 			<class name="com.crm.qa.testcases.DealPageTest"></class>
 			<class name="com.crm.qa.testcases.TaskPageTest"></class>
 			<class name="com.crm.qa.testcases.CallPageTest"></class>
+			<class name="com.crm.qa.testcases.CampaignPageTest"></class>
+			<class name="com.crm.qa.testcases.CalenderPageTest"></class>
+			<class name="com.crm.qa.testcases.CompanyPageTest"></class>	
 		</classes>
-	
 	</test>
 </suite>

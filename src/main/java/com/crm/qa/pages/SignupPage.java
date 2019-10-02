@@ -4,12 +4,9 @@ import java.io.IOException;
 
 import com.crm.qa.base.TestBase;
 
-
 public class SignupPage extends TestBase {
 
 	public SignupPage() throws IOException {
-		
-	
-	
-}
+
+	}
 }

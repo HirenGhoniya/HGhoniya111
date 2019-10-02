@@ -16,7 +16,7 @@ import com.crm.qa.pages.HomeScreen;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.pages.SignupPage;
 
-public class DealPageTest extends TestBase{
+public class DealPageTest extends TestBase {
 
 	LoginPage loginPage;
 	HomePage homePage;
@@ -26,11 +26,10 @@ public class DealPageTest extends TestBase{
 	SignupPage sign;
 	ContactPage contactPage;
 	DealPage dealPage;
-	
+
 	public DealPageTest() throws IOException {
 		super();
 	}
-
 
 	@BeforeMethod
 	public void SetUp() throws IOException {
@@ -44,26 +43,22 @@ public class DealPageTest extends TestBase{
 		loginPage.LogIn(Prop.getProperty("username"), Prop.getProperty("password"));
 		homePage.validateDeal();
 	}
-	
-	
-	 @Test(priority = 1)
+
+	@Test(priority = 1)
 	public void newDealButtonTest() {
 		dealPage.validateNewDealbutton();
-	} 
-	
-	
+	}
+
 	@Test(priority = 2)
 	public void addNewDealTest() {
 		dealPage.validateNewDealbutton();
 		dealPage.validateCreateNewDeal("Swastik info - Hot Deal");
 	}
-	
-	
- 	@AfterMethod
+
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
-		
-	} 
-	
-	
+
+	}
+
 }

@@ -11,17 +11,15 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class TestUtil {
-	
+
 	private static final String TESTDATA_SHEET_PATH = "C:\\Users\\Scaletech\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\CrmTestData.xls";
 	public static long PageLoadTimeOut = 30;
 	public static long ImplicitWait = 30;
-	
-	 static Workbook book;
-	 static Sheet sheet;
-	 static JavascriptExecutor js;
-	
-	 
-	 
+
+	static Workbook book;
+	static Sheet sheet;
+	static JavascriptExecutor js;
+
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
 		try {

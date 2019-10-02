@@ -6,21 +6,13 @@
   </listeners>
   <test thread-count="5" name="Free CRM Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.TaskPageTest">
+      <class name="com.crm.qa.testcases.CampaignPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="addNewTaskDetailsTest"/>
+          <include name="AddNewCampaignTest"/>
+          <include name="SetUp"/>
           <include name="tearDown"/>
-          <include name="createNewTaskTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.TaskPageTest -->
-      <class name="com.crm.qa.testcases.ContactPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUP"/>
-          <include name="addNewContactTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+      </class> <!-- com.crm.qa.testcases.CampaignPageTest -->
     </classes>
   </test> <!-- Free CRM Test Cases(failed) -->
 </suite> <!-- Failed suite [Free CRM Test] -->
